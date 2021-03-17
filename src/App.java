@@ -7,9 +7,9 @@ public class App {
         System.out.println("Enter kilometers:");
 
         Scanner in = new Scanner(System.in);
-        double kilometers = in.nextDouble();
+        float kilometers = in.nextFloat();
 
-        double meters = kilometers / 1000;
+        float meters = kilometers / 1000;
 
         System.out.println(meters + "meters");
 
