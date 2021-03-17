@@ -6,8 +6,8 @@ public class App {
 
         System.out.println("Enter kilometers:");
 
-        Scanner in = new Scanner(System.in);
-        float kilometers = in.nextFloat();
+        Scanner con = new Scanner(System.in);
+        float kilometers = con.nextFloat();
 
         float meters = kilometers / 1000;
 
